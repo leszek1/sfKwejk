@@ -21,6 +21,8 @@ class AppKernel extends Kernel
             new Kwejk\MemsBundle\KwejkMemsBundle(),
             new Kwejk\LayoutBundle\KwejkLayoutBundle(),
         	new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
+        	new FOS\UserBundle\FOSUserBundle(),
+        	
         		
         );
 
