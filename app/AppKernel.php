@@ -22,6 +22,9 @@ class AppKernel extends Kernel
             new Kwejk\LayoutBundle\KwejkLayoutBundle(),
         	new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
         	new FOS\UserBundle\FOSUserBundle(),
+        	new Kwejk\CoreBundle\KwejkCoreBundle(),
+        	new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle()
+        		
         	
         		
         );
